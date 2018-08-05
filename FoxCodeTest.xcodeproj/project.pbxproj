@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52781CB221140E98009FFCB7 /* TeamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52781CB121140E98009FFCB7 /* TeamViewModel.swift */; };
+		52781CB421140F40009FFCB7 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52781CB321140F40009FFCB7 /* PlayerViewModel.swift */; };
+		52781CB821158281009FFCB7 /* PlayerStatsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52781CB721158281009FFCB7 /* PlayerStatsModel.swift */; };
+		52781CC92115D22B009FFCB7 /* PlayerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52781CC82115D22B009FFCB7 /* PlayerDetailViewController.swift */; };
+		52781CE821169C2A009FFCB7 /* PlayerDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52781CE721169C2A009FFCB7 /* PlayerDetailTableViewCell.swift */; };
+		52781CED2116F860009FFCB7 /* HelperClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52781CEC2116F860009FFCB7 /* HelperClasses.swift */; };
+		527AEC182116FC44005D3541 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527AEC172116FC44005D3541 /* Toast.swift */; };
 		52AB6DAE2113E53100E747A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB6DAD2113E53100E747A7 /* AppDelegate.swift */; };
 		52AB6DB02113E53200E747A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB6DAF2113E53200E747A7 /* ViewController.swift */; };
 		52AB6DB32113E53200E747A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AB6DB12113E53200E747A7 /* Main.storyboard */; };
 		52AB6DB52113E53400E747A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AB6DB42113E53400E747A7 /* Assets.xcassets */; };
 		52AB6DB82113E53400E747A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AB6DB62113E53400E747A7 /* LaunchScreen.storyboard */; };
-		52AB6DC32113E53400E747A7 /* FoxCodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB6DC22113E53400E747A7 /* FoxCodableTests.swift */; };
+		52AB6DC32113E53400E747A7 /* FoxCodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB6DC22113E53400E747A7 /* FoxCodeTestTests.swift */; };
+		52AB6DCE2113F3C000E747A7 /* StatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB6DCD2113F3C000E747A7 /* StatModel.swift */; };
+		52AB6DD02113F3D900E747A7 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB6DCF2113F3D900E747A7 /* PlayerModel.swift */; };
+		52AB6DD22113F40100E747A7 /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB6DD12113F40100E747A7 /* TeamModel.swift */; };
+		52AB6DD52113F44600E747A7 /* StatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB6DD42113F44600E747A7 /* StatViewModel.swift */; };
+		52AB6DD92113F7EC00E747A7 /* StatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB6DD82113F7EC00E747A7 /* StatTableViewCell.swift */; };
+		52AB6DDD211402DE00E747A7 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB6DDC211402DD00E747A7 /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +39,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		52AB6DAA2113E53100E747A7 /* FoxCodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxCodable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52781CB121140E98009FFCB7 /* TeamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewModel.swift; sourceTree = "<group>"; };
+		52781CB321140F40009FFCB7 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		52781CB721158281009FFCB7 /* PlayerStatsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerStatsModel.swift; sourceTree = "<group>"; };
+		52781CC82115D22B009FFCB7 /* PlayerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailViewController.swift; sourceTree = "<group>"; };
+		52781CE721169C2A009FFCB7 /* PlayerDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailTableViewCell.swift; sourceTree = "<group>"; };
+		52781CEC2116F860009FFCB7 /* HelperClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperClasses.swift; sourceTree = "<group>"; };
+		527AEC172116FC44005D3541 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		52AB6DAA2113E53100E747A7 /* FoxCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AB6DAD2113E53100E747A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52AB6DAF2113E53200E747A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52AB6DB22113E53200E747A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52AB6DB42113E53400E747A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52AB6DB72113E53400E747A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52AB6DB92113E53400E747A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52AB6DBE2113E53400E747A7 /* FoxCodableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxCodableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52AB6DC22113E53400E747A7 /* FoxCodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxCodableTests.swift; sourceTree = "<group>"; };
+		52AB6DBE2113E53400E747A7 /* FoxCodeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxCodeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AB6DC22113E53400E747A7 /* FoxCodeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxCodeTestTests.swift; sourceTree = "<group>"; };
 		52AB6DC42113E53400E747A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52AB6DCD2113F3C000E747A7 /* StatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatModel.swift; sourceTree = "<group>"; };
+		52AB6DCF2113F3D900E747A7 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		52AB6DD12113F40100E747A7 /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
+		52AB6DD42113F44600E747A7 /* StatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatViewModel.swift; sourceTree = "<group>"; };
+		52AB6DD82113F7EC00E747A7 /* StatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatTableViewCell.swift; sourceTree = "<group>"; };
+		52AB6DDC211402DD00E747A7 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +82,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52781CE921169C37009FFCB7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52AB6DD82113F7EC00E747A7 /* StatTableViewCell.swift */,
+				52781CE721169C2A009FFCB7 /* PlayerDetailTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52781CEA21169C46009FFCB7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52AB6DAF2113E53200E747A7 /* ViewController.swift */,
+				52781CEC2116F860009FFCB7 /* HelperClasses.swift */,
+				52781CC82115D22B009FFCB7 /* PlayerDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		52781CEB2116CF30009FFCB7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				52AB6DDC211402DD00E747A7 /* Webservice.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		527AEC192116FC4B005D3541 /* ExtLibs */ = {
+			isa = PBXGroup;
+			children = (
+				527AEC172116FC44005D3541 /* Toast.swift */,
+			);
+			path = ExtLibs;
+			sourceTree = "<group>";
+		};
 		52AB6DA12113E53100E747A7 = {
 			isa = PBXGroup;
 			children = (
-				52AB6DAC2113E53100E747A7 /* FoxCodable */,
-				52AB6DC12113E53400E747A7 /* FoxCodableTests */,
+				52AB6DAC2113E53100E747A7 /* FoxCodeTest */,
+				52AB6DC12113E53400E747A7 /* FoxCodeTestTests */,
 				52AB6DAB2113E53100E747A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,40 +129,66 @@
 		52AB6DAB2113E53100E747A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52AB6DAA2113E53100E747A7 /* FoxCodable.app */,
-				52AB6DBE2113E53400E747A7 /* FoxCodableTests.xctest */,
+				52AB6DAA2113E53100E747A7 /* FoxCodeTest.app */,
+				52AB6DBE2113E53400E747A7 /* FoxCodeTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52AB6DAC2113E53100E747A7 /* FoxCodable */ = {
+		52AB6DAC2113E53100E747A7 /* FoxCodeTest */ = {
 			isa = PBXGroup;
 			children = (
 				52AB6DAD2113E53100E747A7 /* AppDelegate.swift */,
-				52AB6DAF2113E53200E747A7 /* ViewController.swift */,
+				52781CEA21169C46009FFCB7 /* Controllers */,
+				52781CEB2116CF30009FFCB7 /* Networking */,
+				52781CE921169C37009FFCB7 /* Views */,
+				52AB6DDE211402F100E747A7 /* ViewModels */,
+				52AB6DD32113F41700E747A7 /* Models */,
 				52AB6DB12113E53200E747A7 /* Main.storyboard */,
 				52AB6DB42113E53400E747A7 /* Assets.xcassets */,
 				52AB6DB62113E53400E747A7 /* LaunchScreen.storyboard */,
 				52AB6DB92113E53400E747A7 /* Info.plist */,
+				527AEC192116FC4B005D3541 /* ExtLibs */,
 			);
-			path = FoxCodable;
+			path = FoxCodeTest;
 			sourceTree = "<group>";
 		};
-		52AB6DC12113E53400E747A7 /* FoxCodableTests */ = {
+		52AB6DC12113E53400E747A7 /* FoxCodeTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				52AB6DC22113E53400E747A7 /* FoxCodableTests.swift */,
+				52AB6DC22113E53400E747A7 /* FoxCodeTestTests.swift */,
 				52AB6DC42113E53400E747A7 /* Info.plist */,
 			);
-			path = FoxCodableTests;
+			path = FoxCodeTestTests;
+			sourceTree = "<group>";
+		};
+		52AB6DD32113F41700E747A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52AB6DCD2113F3C000E747A7 /* StatModel.swift */,
+				52AB6DD12113F40100E747A7 /* TeamModel.swift */,
+				52AB6DCF2113F3D900E747A7 /* PlayerModel.swift */,
+				52781CB721158281009FFCB7 /* PlayerStatsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52AB6DDE211402F100E747A7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				52AB6DD42113F44600E747A7 /* StatViewModel.swift */,
+				52781CB121140E98009FFCB7 /* TeamViewModel.swift */,
+				52781CB321140F40009FFCB7 /* PlayerViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52AB6DA92113E53100E747A7 /* FoxCodable */ = {
+		52AB6DA92113E53100E747A7 /* FoxCodeTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52AB6DC72113E53400E747A7 /* Build configuration list for PBXNativeTarget "FoxCodable" */;
+			buildConfigurationList = 52AB6DC72113E53400E747A7 /* Build configuration list for PBXNativeTarget "FoxCodeTest" */;
 			buildPhases = (
 				52AB6DA62113E53100E747A7 /* Sources */,
 				52AB6DA72113E53100E747A7 /* Frameworks */,
@@ -111,14 +198,14 @@
 			);
 			dependencies = (
 			);
-			name = FoxCodable;
+			name = FoxCodeTest;
 			productName = FoxCodable;
-			productReference = 52AB6DAA2113E53100E747A7 /* FoxCodable.app */;
+			productReference = 52AB6DAA2113E53100E747A7 /* FoxCodeTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		52AB6DBD2113E53400E747A7 /* FoxCodableTests */ = {
+		52AB6DBD2113E53400E747A7 /* FoxCodeTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52AB6DCA2113E53400E747A7 /* Build configuration list for PBXNativeTarget "FoxCodableTests" */;
+			buildConfigurationList = 52AB6DCA2113E53400E747A7 /* Build configuration list for PBXNativeTarget "FoxCodeTestTests" */;
 			buildPhases = (
 				52AB6DBA2113E53400E747A7 /* Sources */,
 				52AB6DBB2113E53400E747A7 /* Frameworks */,
@@ -129,9 +216,9 @@
 			dependencies = (
 				52AB6DC02113E53400E747A7 /* PBXTargetDependency */,
 			);
-			name = FoxCodableTests;
+			name = FoxCodeTestTests;
 			productName = FoxCodableTests;
-			productReference = 52AB6DBE2113E53400E747A7 /* FoxCodableTests.xctest */;
+			productReference = 52AB6DBE2113E53400E747A7 /* FoxCodeTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +240,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52AB6DA52113E53100E747A7 /* Build configuration list for PBXProject "FoxCodable" */;
+			buildConfigurationList = 52AB6DA52113E53100E747A7 /* Build configuration list for PBXProject "FoxCodeTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,8 +253,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52AB6DA92113E53100E747A7 /* FoxCodable */,
-				52AB6DBD2113E53400E747A7 /* FoxCodableTests */,
+				52AB6DA92113E53100E747A7 /* FoxCodeTest */,
+				52AB6DBD2113E53400E747A7 /* FoxCodeTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -197,7 +284,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AB6DD22113F40100E747A7 /* TeamModel.swift in Sources */,
+				52AB6DD92113F7EC00E747A7 /* StatTableViewCell.swift in Sources */,
+				52781CED2116F860009FFCB7 /* HelperClasses.swift in Sources */,
+				52781CC92115D22B009FFCB7 /* PlayerDetailViewController.swift in Sources */,
+				52781CB821158281009FFCB7 /* PlayerStatsModel.swift in Sources */,
+				52AB6DD02113F3D900E747A7 /* PlayerModel.swift in Sources */,
+				52781CB221140E98009FFCB7 /* TeamViewModel.swift in Sources */,
+				527AEC182116FC44005D3541 /* Toast.swift in Sources */,
+				52AB6DD52113F44600E747A7 /* StatViewModel.swift in Sources */,
+				52AB6DCE2113F3C000E747A7 /* StatModel.swift in Sources */,
 				52AB6DB02113E53200E747A7 /* ViewController.swift in Sources */,
+				52781CB421140F40009FFCB7 /* PlayerViewModel.swift in Sources */,
+				52781CE821169C2A009FFCB7 /* PlayerDetailTableViewCell.swift in Sources */,
+				52AB6DDD211402DE00E747A7 /* Webservice.swift in Sources */,
 				52AB6DAE2113E53100E747A7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52AB6DC32113E53400E747A7 /* FoxCodableTests.swift in Sources */,
+				52AB6DC32113E53400E747A7 /* FoxCodeTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +315,7 @@
 /* Begin PBXTargetDependency section */
 		52AB6DC02113E53400E747A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 52AB6DA92113E53100E747A7 /* FoxCodable */;
+			target = 52AB6DA92113E53100E747A7 /* FoxCodeTest */;
 			targetProxy = 52AB6DBF2113E53400E747A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -360,7 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CCYWBJ37C;
-				INFOPLIST_FILE = FoxCodable/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FoxCodeTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,7 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4CCYWBJ37C;
-				INFOPLIST_FILE = FoxCodable/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FoxCodeTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -407,7 +507,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxCodable.app/FoxCodable";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxCodeTest.app/FoxCodeTest";
 			};
 			name = Debug;
 		};
@@ -428,14 +528,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxCodable.app/FoxCodable";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxCodeTest.app/FoxCodeTest";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52AB6DA52113E53100E747A7 /* Build configuration list for PBXProject "FoxCodable" */ = {
+		52AB6DA52113E53100E747A7 /* Build configuration list for PBXProject "FoxCodeTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52AB6DC52113E53400E747A7 /* Debug */,
@@ -444,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52AB6DC72113E53400E747A7 /* Build configuration list for PBXNativeTarget "FoxCodable" */ = {
+		52AB6DC72113E53400E747A7 /* Build configuration list for PBXNativeTarget "FoxCodeTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52AB6DC82113E53400E747A7 /* Debug */,
@@ -453,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52AB6DCA2113E53400E747A7 /* Build configuration list for PBXNativeTarget "FoxCodableTests" */ = {
+		52AB6DCA2113E53400E747A7 /* Build configuration list for PBXNativeTarget "FoxCodeTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52AB6DCB2113E53400E747A7 /* Debug */,
